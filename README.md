@@ -1,21 +1,23 @@
-## AllData 一站式大数据平台
 
-### 目前正在建设团队，将大力投入发展AllData项目，欢迎大家踊跃参与建设与讨论！
-### 由于近期购买服务器需要，希望能得到社区的成员捐赠支持
-### 捐赠方式：添加作者个人微信AllDataDC，通过支付作者10-100元
-### 1、您会获得面对面与作者1对1咨询宝贵机会，将有30分钟咨询
-### 2、您会获得收益，作者会分享Github 1000 Stars+ 从0到1建设开源大数据平台经验心得
-### 3、您会获得内部最新总设文档，支付时请备注联系方式，支付后请联系作者微信AllDataDC
-### 4、您将有机会获得商业版定制的机会，加作者微信好友，可以提供第一手安装部署资料
-### 5、您将有机会成为AllData极客开发团队成员，获得成就感与价值输出愉悦感
+<div align="center">
 
-<br/>
-<img width="503" alt="image" src="https://user-images.githubusercontent.com/20246692/183455096-93e56491-3fbd-4414-ab64-3886f798bdbd.jpg">
+  <h3> 💥🔥 Hey there! I'm AllDataDC.</h3>
 
-### 添加AllData社区负责人微信进群
-<br/>
-<img width="503" alt="image" src="https://user-images.githubusercontent.com/20246692/188576131-e14fc227-c352-4eb9-8803-bdd5fbcedc0f.jpg">
-<br/>
+  Developing BigData Platform
+
+  Exploring new technologies
+
+  Studying Computer Science
+
+  Enthusiast in BigData and AI
+
+  Full Stack developer and BigData developer
+  
+  Create a product that is useful to society
+  
+  <h2>💥🔥 Awesome! AllData was created and now has <img align="center" width="120" src="https://img.shields.io/github/stars/AllDataTeam?style=social"</h2>
+  <br/>
+</div>
 
 <p>
   <a href="https://github.com/authorwlh/alldata/commits/master" target="_blank">
@@ -32,10 +34,16 @@
   </a>
 </p>
 
-[中文](https://github.com/authorwlh/alldata/blob/master/README-zh.md) | English
+[中文](https://github.com/authorwlh/alldata/blob/master/README_ZH.md) | English
 
 [Demo](http://112.74.93.144:3000) | [Documentation](https://github.com/authorwlh/alldata/blob/master/README.md) | [Installation](#installation) | [Run](#run) | [Screenshot](#screenshot) | [Architecture](#architecture) | [Integration](#integration-with-other-frameworks) | [Compare](#comparison-with-other-frameworks) | [Community & Sponsorship](#community--sponsorship)
 
+
+## [AllData社区项目官方文档](https://alldatateam.github.io/)
+
+## [AllData数据中台体验版地址](https://alldatateam.github.io/)
+
+## [AllData数据中台前端Demo](https://github.com/AllDataTeam/dataHub)
 
 ## Stargazers over time
 
@@ -48,17 +56,20 @@
 <img width="1138" alt="image" src="https://user-images.githubusercontent.com/20246692/159821983-7eacde80-a65c-478f-a053-7e26028ff380.png">
 <br/>
 
-
-## [AllData社区项目官方文档](https://alldatateam.github.io/)
-
-## [AllData数据中台体验版地址](https://alldatateam.github.io/)
-
-## [AllData数据中台前端Demo](https://github.com/AllDataTeam/dataHub)
-<br/>
-<img width="1138" alt="image" src="https://user-images.githubusercontent.com/20246692/187581176-f26e4d3d-36ae-48bb-ba95-dd08a2cbe5cd.png">
+## AllData社区项目树状图
+<img width="1138" alt="image" src="https://user-images.githubusercontent.com/20246692/188898939-bfba6cbc-c7b0-40c4-becd-27152d5daa90.png">
 <br/>
 
+## AllData社区商业计划图
+<img width="1138" alt="image" src="https://user-images.githubusercontent.com/20246692/188898972-d78bcbb6-eb30-420d-b5e1-7168aa340555.png">
+<br/>
 
+## AllData社区项目业务流程图
+<img width="1138" alt="image" src="https://user-images.githubusercontent.com/20246692/188899006-aba25703-f8fa-42b6-b59f-2573ee2b27fc.png">
+<br/>
+
+## AllData社区项目时间旅行
+<img width="1138" alt="image" src="https://user-images.githubusercontent.com/20246692/188899033-948583a4-841b-4233-ad61-bbc45c936ca1.png">
 <br/>
 
 ## 全站式AllData产品路线图
@@ -371,4 +382,8 @@ job-schedule: 任务提交平台
 <br/>
 <img width="503" alt="image" src="https://user-images.githubusercontent.com/20246692/188576131-e14fc227-c352-4eb9-8803-bdd5fbcedc0f.jpg">
 <br/>
+
+
+
+
 
