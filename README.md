@@ -1,25 +1,20 @@
 
 <div align="center">
-
   <h3> 💥🔥 Hey there! I'm AllDataDC.</h3>
-
+<br/>
   Developing BigData Platform
-
+<br/>
   Exploring new technologies
-
+<br/>
   Studying Computer Science
-
+<br/>
   Enthusiast in BigData and AI
-
+<br/>
   Full Stack developer and BigData developer
-  
-  Create a product that is useful to society
-  
-  <h2>💥🔥 Awesome! AllData was created and now has <img align="center" width="120" src="https://img.shields.io/github/stars/AllDataTeam?style=social"</h2>
   <br/>
-</div>
-
-<p>
+  Create a product that is useful to society
+  <br/>
+  <p>
   <a href="https://github.com/authorwlh/alldata/commits/master" target="_blank">
     <img src="https://img.shields.io/github/last-commit/authorwlh/alldata.svg">
   </a>
@@ -33,6 +28,9 @@
     <img src="https://img.shields.io/github/license/authorwlh/alldata.svg">
   </a>
 </p>
+</div>
+
+
 
 [中文](https://github.com/authorwlh/alldata/blob/master/README_ZH.md) | English
 
