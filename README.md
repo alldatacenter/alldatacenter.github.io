@@ -12,10 +12,11 @@
 <br/>
 <img width="503" alt="image" src="https://user-images.githubusercontent.com/20246692/183455096-93e56491-3fbd-4414-ab64-3886f798bdbd.jpg">
 
-### 微信群
-> 添加AllData社区负责人微信进群
+### 添加AllData社区负责人微信进群
+<br/>
 <img width="503" alt="image" src="https://user-images.githubusercontent.com/20246692/188576131-e14fc227-c352-4eb9-8803-bdd5fbcedc0f.jpg">
 <br/>
+
 <p>
   <a href="https://github.com/authorwlh/alldata/commits/master" target="_blank">
     <img src="https://img.shields.io/github/last-commit/authorwlh/alldata.svg">
