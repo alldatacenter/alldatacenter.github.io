@@ -62,7 +62,7 @@ http://43.138.157.47:8013/dashboard
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965519-d8fc6e7d-235d-4b52-82f6-358b3863d724.png">
 <br/>
 
- 数据集成
+数据集成
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/206071504-c0e2b3ca-e3c2-4d70-8213-55c7316465ff.png">
@@ -96,7 +96,7 @@ http://43.138.157.47:8013/dashboard
 <br/>
 
 
- 元数据管理
+元数据管理
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203520997-9ac122bb-f61a-4ea9-becf-efa0b72320ad.png">
@@ -105,7 +105,7 @@ http://43.138.157.47:8013/dashboard
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521639-ed23fceb-96ef-49e2-ac49-931978d7dcc0.png">
 <br/>
 
- 元数据拾取
+元数据拾取
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521695-8f7469db-fc98-44e2-b82c-de729cd5c9e1.png">
 <br/>
@@ -117,7 +117,7 @@ http://43.138.157.47:8013/dashboard
 <br/>
 
 
- 应用分析
+应用分析
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521541-3a3186fd-0827-4c4c-bca0-f2761d6f4d67.png">
 <br/>
@@ -126,44 +126,44 @@ http://43.138.157.47:8013/dashboard
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521584-4099710f-b31f-4815-9c7f-e08e0cdc45bf.png">
 <br/>
 
- 系统菜单管理
+系统菜单管理
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521695-8f7469db-fc98-44e2-b82c-de729cd5c9e1.png">
 <br/>
 
- 元数据管理
+元数据管理
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560882-bc7876d5-6c35-4b79-aa39-aa2803f46e8c.png">
 <br/>
 
- 数据质量
+数据质量
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560895-d03ec73a-f670-4238-860e-26b708c3f2b7.png">
 <br/>
 
 
- 数据市场
+数据市场
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560915-6c17f056-0956-4a83-94a6-00cd21571af9.png">
 <br/>
 
 
- 数据标准
+数据标准
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561067-831d0733-812a-4660-a198-8248eaaf2d8c.png">
 <br/>
 
- BI报表
+BI报表
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561081-30169347-8aff-4150-a8c2-f3f3a5a2a20d.png">
 <br/>
 
- 数据资产
+数据资产
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561280-3d656a33-9e3a-440e-ab37-93397fe26b04.png">
 <br/>
 
- 流程编排
+流程编排
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561326-002e0e59-e89d-47b4-8648-ca932194937b.png">
 <br/>
@@ -175,45 +175,10 @@ Flink数据血缘初体验
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/206093771-adfeebf0-ff7d-4044-b3b5-592ff965afa4.png">
 <br/>
 
-    2 创建FlinkDDL
+    2 创建FlinkDDL Resource/FlinkDDLSQL.sql
 
- 参考Resource/FlinkDDLSQL.sql
- 
     3 执行com.platform.FlinkLineageBuild
- 
- 获取结果
- 
- 1、Flink血缘构建结果-表:
- 
- [LineageTable{id='4', name='data_gen', columns=[LineageColumn{name='amount', title='amount'}]},
- 
- LineageTable{id='6', name='mysql_sink', columns=[LineageColumn{name='amount', title='amount'}]}]
- 
- 表ID: 4
- 
- 表Namedata_gen
- 
- 表ID: 4
- 
- 表Namedata_gen
- 
- 表-列LineageColumn{name='amount', title='amount'}
- 
- 表ID: 6
- 
- 表Namemysql_sink
- 
- 表ID: 6
- 
- 表Namemysql_sink
- 
- 表-列LineageColumn{name='amount', title='amount'}
- 
- 2、Flink血缘构建结果-边:
- 
- [LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}]
- 
- 表-边: LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}
+
 
 AllData Doris
 <br/>
@@ -290,13 +255,10 @@ AllData Ambari全新自定义Apache组件栈大数据中台
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998796-732df150-c697-41b6-a5e7-dc9c65cada4f.png">
 <br/>
 
-使用Docker/K8S云原生方案-控制各种组件起停
 
 
-Flink Table Store && Lake Storage POC
 
-    2.1 SQL~Flink table store poc
-
+    2.1 Flink Table Store && Lake Storage POC
 
     2.2 Flink Runtime Web
 <br/>
@@ -322,7 +284,6 @@ Flink Table Store && Lake Storage POC
 <br/> 
 
 Dlink二开新增Flink1.16.0支持
-1、Dlink配置Flink Table Store相关依赖
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467342-fd24f652-2fb5-4e4e-9b6e-23a113817b6b.png">
 <br/>
@@ -353,30 +314,6 @@ Architecture
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171598333-d14ff53f-3af3-481c-9f60-4f891a535b5c.png">
 <br/>
 
-| Component                                                                                | Description                                                    | Important Composition       |
-|------------------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------|
-| [**aiStudio**](https://github.com/alldatacenter/alldata/tree/master/aiStudio)              | AI STUDIO FOR ALL DATA PLATFORM artificial intelligence engine | 人工智能引擎                      |
-| [**aiStudioTasks**](https://github.com/alldatacenter/alldata/tree/master/aiStudioTasks)    | AI STUDIO TASKS FOR ALL DATA PLATFORM MLAPPS Engine            | 人工智能模型任务                    | 
-| [**assembly**](https://github.com/alldatacenter/alldata/tree/master/assembly)              | WHOLE PACKAGE BUILD FOR ALL DATA PLATFORM assembly engine      | 整包构建引擎                      |
-| [**buried**](https://github.com/alldatacenter/alldata/tree/master/buried)                  | BURIED FOR ALL DATA PLATFORM data acquisition engine           | 埋点解决方案                      |
-| [**buriedShop**](https://github.com/alldatacenter/alldata/tree/master/buriedShop)          | BURIED SHOP FOR ALL DATA PLATFORM commerce engine              | 多端商城                        |
-| [**buriedTrade**](https://github.com/alldatacenter/alldata/tree/master/buriedTrade)        | BURIED TRADE FOR ALL DATA PLATFORM commerce engine             | 商业系统                        |
-| [**crawlerData**](https://github.com/alldatacenter/alldata/tree/master/crawlerData)        | CRAWLER DATA TRADE FOR ALL DATA PLATFORM commerce engine       | 爬虫任务                        |
-| [**crawlerPlatform**](https://github.com/alldatacenter/alldata/tree/master/crawlerPlatform) | CRAWLER PLATFORM FOR ALL DATA PLATFORM commerce engine         | 爬虫引擎系统                      |
-| [**dataOlap**](https://github.com/alldatacenter/alldata/tree/master/dataOlap)              | OLAP FOR ALL DATA PLATFORM OLAP query engine                   | 混合OLAP查询引擎                  |
-| [**dataSync**](https://github.com/alldatacenter/alldata/tree/master/dataSync)              | DATA Integrate FOR ALL DATA PLATFORM Data Integration Engine   | 数据集成引擎                      |
-| [**dataSRE**](https://github.com/alldatacenter/alldata/tree/master/dataSRE)                | DATA SRE FOR ALL DATA PLATFORM OLAP query engine               | 智能大数据运维引擎                   |
-| [**deploy**](https://github.com/alldatacenter/alldata/tree/master/deploy)                  | DEPLOY FOR ALL DATA PLATFORM OLAP query engine                 | 安装部署                        |
-| [**documents**](https://github.com/alldatacenter/alldata/tree/master/documents)            | DOCUMENT FOR ALL DATA PLATFORM OLAP query engine               | 官方文档                        |
-| [**govern**](https://github.com/alldatacenter/alldata/tree/master/govern)                  | DATA GOVERN FOR ALL DATA PLATFORM Data Governance Engine       | 数据治理引擎                      |
-| [**oneHub**](https://github.com/alldatacenter/alldata/tree/master/oneHub)                  | ONE HUB FOR ALL DATA PLATFORM ONE HUB Engine                   | AllData总部前后端解决方案            |
-| [**oneLake**](https://github.com/alldatacenter/alldata/tree/master/oneLake)                | ONE LAKE FOR ALL DATA PLATFORM ONE LAKE engine                 | 数据湖引擎                       |
-| [**studioSystem**](https://github.com/alldatacenter/alldata/tree/master/studioSystem)      | STUDIO SYSTEM FOR ALL DATA PLATFORM DEVELOP IDE ENGINE         | 大数据流批计算平台                   |
-| [**studioTasks**](https://github.com/alldatacenter/alldata/tree/master/studioTasks)        | STUDIO TASKS FOR ALL DATA PLATFORM Data Task Engine            | 大数据流批计算任务                   |
-| [**docs**](https://github.com/alldatacenter/alldata/tree/master/docs)                      | Document                                                       | 文档                          | 
-| [**AllData**](https://github.com/alldatacenter/alldata)                                    | AllData社区项目通过二开大数据生态组件，以及大数据采集、大数据存储、大数据计算、大数据开发来建设一站式大数据平台    | Github一站式开源大数据平台AllData社区项目 |
-
-
 AllData社区商业计划图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898972-d78bcbb6-eb30-420d-b5e1-7168aa340555.png">
 <br/>
@@ -404,35 +341,8 @@ AllData社区项目时间旅行
 <br/>
 
 AllData总部前后端解决方案
-包括AllData前后端解决方案、多租户运维平台前后端
-基于`eladmin` + `tenant` 建设AllData前后端解决方案
-
-1、AllData前端解决方案 `oneHub/eladmin-web`
-
-2、AllData后端解决方案 `oneHub/eladmin`
-
-3、多租户运维平台前端 `oneHub/tenant`
-
-4、多租户运维平台前端 `oneHub/tenantBack`
 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/196594418-1ba618cb-da53-487a-951d-0715e3fc685e.jpg">
-
-[开源大数据平台原型图](https://modao.cc/app/HhitGZQTr954c7Ug8XBvAY screen=sl11y8j8sne21p9)
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220740-ee4825fd-8825-4ab6-84a3-e525d1ea646d.png">
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/159821983-7eacde80-a65c-478f-a053-7e26028ff380.png">
-<br/>
-
-[在线预览](http://112.74.93.144:3000/data-center)
-
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160780581-b9b1ecc7-8675-4085-80c8-d781032b7751.png">
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160780205-17756e35-439e-479c-b950-25c444f0dbcf.png">
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160780446-627b34c4-2418-455f-ba87-09c788bb175c.png">
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160780684-ed3a29ac-3c6c-4931-852a-be2066983b8a.png">
-<br/>
-
 
 Integration
 
@@ -475,11 +385,6 @@ S3 Hudi成功写入
 
 1、数据平台
 
- AllData is one of the few open source big data platform projects on Github.
- It will develop into a successful solution to solve a series of problems in big data e-commerce scenarios.
- It will also become a general big data base for other developers to use and Contribution, my original intention is to create a product that is useful to society.
-
-
 2、商城展示
 <br>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160219586-e2e190fa-21f6-4f87-bbbc-7cdd6ecc625a.png">
@@ -507,31 +412,9 @@ S3 Hudi成功写入
 <br/>
 
     3、数据来源
-~~~markdown
-	商城前台：
-		mall-shopping-app: 商城App
-		mall-shopping-app-service: 商城App服务
-		mall-shopping-wc: 商城小程序
-		mall-shopping-mobile: 商城前台
-		mall-shopping-pc: 商城pc端
-		pcAdminService: 商城pc端服务
-		mobileService: 商城前台服务（小程序和前台接入此接口）
-	商城后台：
-		mall-admin-web: 商城后台
-		pcAdminService: 商城后台服务
-~~~
 
     4、数据收集
-~~~markdown
-log-collect-server:
-服务端日志收集系统
-log-collect-client:
-支持各app集成的客户端SDK，负责收集app客户端数据；
-data-import-export:
-基于DataX实现数据集成(导入导出)
-data-spider:
-爬虫平台支持可配置的爬取公网数据的任务开发；
-~~~
+
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220310-25525dad-03ea-42ed-acd1-c5625a7c809f.png">
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220316-d59c47f1-ed0a-44fe-9ca8-ae0fe85c904f.png">
@@ -539,24 +422,13 @@ data-spider:
 <br/>
 
     5、数据存储
-~~~markdown
-分布式文件系统：hdfs
-分布式数据库：hbase、mongodb、elasticsearch
-分布式内存存储系统：redis
-~~~
+
 
     6、数据计算
-~~~markdown
-compute-mr（离线计算）: Hive、MR
-compute-realtime（流计算）: storm、flink
-multi-dimension-analysis（多维度分析）: kylin, spark
-~~~
+
 
     7、数据开发
-~~~markdown
-task-schedular: 任务调度
-task-ops: 任务运维
-~~~
+
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220366-7c913374-c5fe-4488-be82-1339c1441227.png">
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220373-c775d811-3162-4719-86b1-7dfe53ac4326.png">
@@ -564,24 +436,9 @@ task-ops: 任务运维
 <br/>
 
     8、数据产品
-~~~markdown
-data-face: 数据可视化
-data-insight: 用户画像分析
-~~~
-<br/>
 
     9、数据应用
-~~~markdown
-system-recommender: 推荐
-system-ad: 广告
-system-search: 搜索
-system-anti-cheating: 反作弊
-system-report-analysis: 报表分析
-system-elk: ELK日志系统，实现日志搜索平台
-system-apm: skywalking监控平台
-system-deploy: k8s，scala，playframework，docker打包平台。
-job-schedule: 任务提交平台
-~~~
+
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220425-afc819af-e8f9-4fbb-811d-c0b67cccf7d0.png">
@@ -590,64 +447,23 @@ job-schedule: 任务提交平台
 Installation
 
     10、启动配置教程
-
-10.1 启动前，打包dubbo-servie项目，进入dubbo目录，
-
-执行mvn clean package -DskipTests=TRUE打包，然后执行mvn install.
-
-10.2 启动dubbo项目，配置tomcat端口为8091
-
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220455-45898c53-0de6-4a06-80b0-ae7e758b9457.png">
-
-
-10.3 启动商城项目的多个子系统
-
-后台：访问http://localhost:8090
-
-10.3.1、前端：启动mall-admin-web项目，进入项目目录，执行npm install，然后执行npm run dev；
-
-10.3.2、后端：启动pcAdminService/mall-admin-search项目，
-
-配置tomcat端口为8092，接着启动pcManage项目，tomcat端口配置为8093；
-
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220467-283a7964-27c1-4184-9ece-778e87fc38f7.png">
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220472-68a6d9a4-e295-4b86-a9e6-75b53f821d52.png">
-
-
-前台：小程序手机预览，移动端访问：http://localhost:6255
-
-10.3.3、小程序和移动端
-
-10.3.3.1、前端：商城小程序，启动mall-shopping-wc项目，
-
-安装微信开发者工具，配置开发者key和secret，
-
-使用微信开发者工具导入即可，然后点击编译，可以手机预览使用。
-
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220487-dace0ed7-c4e5-4a17-88d9-983e44c89ce5.png">
+<br/>
 
 
-10.3.3.2、前端：商城移动端，启动mall-shopping-mobile，
-
-进入项目目录，执行npm install和npm run dev；
-
-10.3.3.3、后端：小程序和移动端用的是同一个后台服务，
-
-启动mobileService项目，进入项目目录，配置tomcat端口8094
-
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220500-7c6b9097-7a82-4f23-95be-eda9c8f9eee5.png">
-
-
-10.3.4、商城PC端 访问http://localhost:8099
-
-10.3.4.1、前端：启动mall-shopping-pc项目，
-
-进入项目目录，执行npm install和npm run dev；
-
-10.3.4.2、后端：启动pcAdminService项目，配置tomcat端口为8095；
-
+<br/>
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220506-688f51cc-1b3d-46a9-ad3e-ec033ee69562.png">
-
+<br/>
 
 
     11、DevOPS
