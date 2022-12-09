@@ -178,50 +178,6 @@ Flink数据血缘初体验
     2 创建FlinkDDL
 
  参考Resource/FlinkDDLSQL.sql
-
- CREATE TABLE data_gen (
- 
- amount BIGINT
- 
- ) WITH (
- 
- 'connector' = 'datagen',
- 
- 'rows-per-second' = '1',
- 
- 'number-of-rows' = '3',
- 
- 'fields.amount.kind' = 'random',
- 
- 'fields.amount.min' = '10',
- 
- 'fields.amount.max' = '11');
- 
- CREATE TABLE mysql_sink (
- 
- amount BIGINT,
- 
- PRIMARY KEY (amount) NOT ENFORCED
- 
- ) WITH (
- 
- 'connector' = 'jdbc',
- 
- 'url' = 'jdbc:mysql://localhost:3306/test_db',
- 
- 'table-name' = 'test_table',
- 
- 'username' = 'root',
- 
- 'password' = '123456',
- 
- 'lookup.cache.max-rows' = '5000',
- 
- 'lookup.cache.ttl' = '10min'
- 
- );
- 
- INSERT INTO mysql_sink SELECT amount as amount FROM data_gen;
  
     3 执行com.platform.FlinkLineageBuild
  
@@ -336,83 +292,11 @@ AllData Ambari全新自定义Apache组件栈大数据中台
 
 使用Docker/K8S云原生方案-控制各种组件起停
 
- 
-  1、BUSINESS FOR ALL DATA PLATFORM 商业项目
- 
-  2、BUSINESS FOR ALL DATA PLATFORM 计算引擎
- 
-  3、DEVOPS FOR ALL DATA PLATFORM 运维引擎
- 
-  4、DATA GOVERN FOR ALL DATA PLATFORM 数据治理引擎
- 
-  5、DATA Integrate FOR ALL DATA PLATFORM 数据集成引擎
- 
-  6、AI FOR ALL DATA PLATFORM 人工智能引擎
- 
-  7、DATA ODS FOR ALL DATA PLATFORM 数据采集引擎
- 
-  8、OLAP FOR ALL DATA PLATFORM OLAP查询引擎
- 
-  9、OPTIMIZE FOR ALL DATA PLATFORM 性能优化引擎
- 
-  10、DATABASES FOR ALL DATA PLATFORM 分布式存储引擎
- 
 
 Flink Table Store && Lake Storage POC
 
     2.1 SQL~Flink table store poc
- 
-  set execution.checkpointing.interval=15sec;
- 
-  CREATE CATALOG alldata_catalog WITH (
- 
-    'type'='table-store',
- 
-    'warehouse'='file:/tmp/table_store'
- 
-  );
- 
-  USE CATALOG alldata_catalog;
- 
-  CREATE TABLE word_count (
- 
-      word STRING PRIMARY KEY NOT ENFORCED,
-      
-      cnt BIGINT
- 
-  );
- 
-  CREATE TEMPORARY TABLE word_table (
- 
-      word STRING
- 
- ) WITH (
 
-     'connector' = 'datagen',
-     
-     'fields.word.length' = '1'
-
- );
-
- INSERT INTO word_count SELECT word, COUNT(*) FROM word_table GROUP BY word;
-
- -- POC Test OLAP QUERY
-
- SET sql-client.execution.result-mode = 'tableau';
-
- RESET execution.checkpointing.interval;
-
- SET execution.runtime-mode = 'batch';
-
- SELECT * FROM word_count;
-
- -- POC Test Stream QUERY
-
- -- SET execution.runtime-mode = 'streaming';
-
- -- SELECT `interval`, COUNT(*) AS interval_cnt FROM
-
- --   (SELECT cnt / 10000 AS `interval` FROM word_count) GROUP BY `interval`;
 
     2.2 Flink Runtime Web
 <br/>
