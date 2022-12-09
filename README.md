@@ -48,21 +48,14 @@
   </a>
 </p>
 
-## [中文](https://github.com/alldatacenter/alldata/blob/master/README_ZH.md) | English
-## [原型体验预览版](https://orgnext.modao.cc/app/HhitGZQTr954c7Ug8XBvAY) | [Documentation](https://github.com/alldatacenter/alldata/blob/master/README.md) | [Installation](#installation) | [Architecture](#architecture) | [Integration](#integration) | [Community](#community)
-## [AllData社区项目官方文档](https://alldatateam.github.io/) | [AllData数据中台体验版地址](https://alldatateam.github.io/) | [AllData数据中台前端](https://github.com/alldatacenter/dataHub)
-
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/authorwlh/alldata.svg)](https://starchart.cc/authorwlh/alldata)
 
 ## [线上ElAdmin预览地址](http://43.138.157.47:8013/dashboard)
-> http://43.138.157.47:8013/dashboard
-> 账号: poc
-> 密码：123456
+### http://43.138.157.47:8013/dashboard 账号: poc 密码：123456
 
-### ElAdmin预览效果
-> 登录页面
+## ElAdmin登录页面
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965509-fc13050b-ebe8-4bd5-8882-69e1af0a8367.png">
 <br/>
