@@ -30,7 +30,7 @@
 </p>
 
 
-# AllData 一站式大数据平台
+  AllData 一站式大数据平台
 
 <br/>
 <p>
@@ -48,9 +48,9 @@
   </a>
 </p>
 
-## 线上ElAdmin预览地址: http://43.138.157.47:8013/dashboard 账号: poc 密码：123456
+   线上ElAdmin预览地址: http://43.138.157.47:8013/dashboard 账号: poc 密码：123456
 
-## ElAdmin登录页面
+   ElAdmin登录页面
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965509-fc13050b-ebe8-4bd5-8882-69e1af0a8367.png">
 <br/>
@@ -165,14 +165,14 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561326-002e0e59-e89d-47b4-8648-ca932194937b.png">
 <br/>
 
-## Flink数据血缘初体验
+   Flink数据血缘初体验
 
-### 1 结果预览
+    1 结果预览
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/206093771-adfeebf0-ff7d-4044-b3b5-592ff965afa4.png">
 <br/>
 
-### 2 创建FlinkDDL
+    2 创建FlinkDDL
 
 > 参考Resource/FlinkDDLSQL.sql
 
@@ -220,7 +220,7 @@
 >
 > INSERT INTO mysql_sink SELECT amount as amount FROM data_gen;
 
-### 3 执行com.platform.FlinkLineageBuild
+    3 执行com.platform.FlinkLineageBuild
 
 > 获取结果
 
@@ -256,82 +256,82 @@
 >
 > 表-边: LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}
 
-## AllData Doris
+   AllData Doris
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/200178943-7a8edb50-b4d6-4095-9e39-2b3303925701.png">
 <br/>
 
-## AllData全新定制一站式场景化大数据中台
+   AllData全新定制一站式场景化大数据中台
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/200179453-bfe6b877-5e59-4239-8217-154a0953c97d.png">
 <br/>
 
-## AllData Ambari全新自定义Apache组件栈大数据中台
+   AllData Ambari全新自定义Apache组件栈大数据中台
 <br/> 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/202367748-4cc39063-aa62-414e-9a10-9543403d5d7c.png">
 <br/>
 
-## 大数据组件管理DOCKER FOR DATA PLATFORM
+   大数据组件管理DOCKER FOR DATA PLATFORM
 
-### 1、配置主机服务HOST
+    1、配置主机服务HOST
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203997670-4b2339e5-d4ba-43ec-afb3-e454646255fd.png">
 <br/> 
 
-### 2、启动大数据集群
+    2、启动大数据集群
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203997598-a80fc4bc-1226-4d7a-9918-39f2586b4170.png">
 <br/> 
 
-### 3、YARN正常访问
+    3、YARN正常访问
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203997781-cb66da01-eddc-4576-b6e0-b107cdaa189b.png">
 <br/>
 
-### 4、HIVE正常使用
+    4、HIVE正常使用
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203997829-52c8c396-1dc4-4a53-b398-c3a54685f66f.png">
 <br/>
 
-### 5、HDFS正常访问
+    5、HDFS正常访问
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998038-0cc73461-6fea-4779-b6c4-0ee293b62832.png">
 <br/>
 
-### 6、ES健康检测
+    6、ES健康检测
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998116-c9cf7a9a-c51e-48d3-823b-9ffef1806567.png">
 <br/>
 
-### 7、KIBANA UI访问
+    7、KIBANA UI访问
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998431-e8c2a604-d666-4eef-9ea6-b8a2cc669cac.png">
 <br/>
 
-### 8、PRESTO UI访问
+    8、PRESTO UI访问
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998248-bf6a4090-8943-493b-83a5-87a55d2dcc17.png">
 <br/>
 
-### 9、HBASE正常访问
+    9、HBASE正常访问
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998514-354d2756-0bee-4cbe-aead-d686fec61da4.png">
 <br/>
 
-### 10、FLIKN RUNTIME WEB 正常访问
+    10、FLIKN RUNTIME WEB 正常访问
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998796-732df150-c697-41b6-a5e7-dc9c65cada4f.png">
 <br/>
 
-## 使用Docker/K8S云原生方案-控制各种组件起停
+   使用Docker/K8S云原生方案-控制各种组件起停
 
 >
 > 1、BUSINESS FOR ALL DATA PLATFORM 商业项目
@@ -355,9 +355,9 @@
 > 10、DATABASES FOR ALL DATA PLATFORM 分布式存储引擎
 >
 
-## Flink Table Store && Lake Storage POC
+   Flink Table Store && Lake Storage POC
 
-### 2.1 SQL~Flink table store poc
+    2.1 SQL~Flink table store poc
 >
 > set execution.checkpointing.interval=15sec;
 >
@@ -411,44 +411,44 @@
 >
 > --   (SELECT cnt / 10000 AS `interval` FROM word_count) GROUP BY `interval`;
 
-### 2.2 Flink Runtime Web
+    2.2 Flink Runtime Web
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073679-f64b4655-7ea8-4c36-98ab-7b1806119224.png">
 <br/>
 
-### 2.3 Flink Batch
+    2.3 Flink Batch
 >
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073715-e69d8378-1b37-4fea-851f-9f3e6a9d62eb.png">
 <br/>
 
-### 2.4 Flink Olap Read
+    2.4 Flink Olap Read
 >
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073740-e088e842-3010-42af-bfc2-0808d5e1940f.png">
 <br/> 
 
-### 2.5 Flink Stream Read
+    2.5 Flink Stream Read
 >
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073760-906f0b1c-498b-4713-931b-25a90f53e985.png">
 <br/> 
 
-## Dlink二开新增Flink1.16.0支持
-### 1、Dlink配置Flink Table Store相关依赖
+   Dlink二开新增Flink1.16.0支持
+    1、Dlink配置Flink Table Store相关依赖
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467342-fd24f652-2fb5-4e4e-9b6e-23a113817b6b.png">
 <br/> 
-### 2、Dlink启动并运行成功
+    2、Dlink启动并运行成功
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467422-a2c39226-31c6-4998-a926-71068b36de4d.png">
 <br/> 
-### 3、OLAP查询
+    3、OLAP查询
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467379-b498da92-218f-4f29-a977-dd17fa374ea0.png">
 <br/> 
 
-### 4、Flink1.16.0 Dlink流式读
+    4、Flink1.16.0 Dlink流式读
 > 4.1 Stream Read 1
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467499-e1541c84-f8c8-40ff-aa33-cdd35cae2932.png">
@@ -459,7 +459,7 @@
 <br/>
 
 
-## Architecture
+   Architecture
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171598215-0914f665-9950-476c-97ff-e7e07aa10eaf.png">
 <br/>
@@ -490,35 +490,35 @@
 | [**AllData**](https://github.com/alldatacenter/alldata)                                    | AllData社区项目通过二开大数据生态组件，以及大数据采集、大数据存储、大数据计算、大数据开发来建设一站式大数据平台    | Github一站式开源大数据平台AllData社区项目 |
 
 
-## AllData社区商业计划图
+   AllData社区商业计划图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898972-d78bcbb6-eb30-420d-b5e1-7168aa340555.png">
 <br/>
 
-## AllData社区项目业务流程图
+   AllData社区项目业务流程图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899006-aba25703-f8fa-42b6-b59f-2573ee2b27fc.png">
 <br/>
 
-## AllData社区项目树状图
+   AllData社区项目树状图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898939-bfba6cbc-c7b0-40c4-becd-27152d5daa90.png">
 <br/>
 
-## 全站式AllData产品路线图
+   全站式AllData产品路线图
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/179927878-ff9c487e-0d30-49d5-bc88-6482646d90a8.png">
 <br/>
 
 
-## AllData社区项目时间旅行
+   AllData社区项目时间旅行
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899033-948583a4-841b-4233-ad61-bbc45c936ca1.png">
 <br/>
 
-## 实时推荐系统业务流程图
+   实时推荐系统业务流程图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/191244864-3cffc8e3-e41e-4865-8b2b-376742f10a8e.png">
 <br/>
 
-## AllData总部前后端解决方案
-### 包括AllData前后端解决方案、多租户运维平台前后端
-### 基于`eladmin` + `tenant` 建设AllData前后端解决方案
+   AllData总部前后端解决方案
+    包括AllData前后端解决方案、多租户运维平台前后端
+    基于`eladmin` + `tenant` 建设AllData前后端解决方案
 
 > 1、AllData前端解决方案 `oneHub/eladmin-web`
 >
@@ -530,14 +530,14 @@
 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/196594418-1ba618cb-da53-487a-951d-0715e3fc685e.jpg">
 
-## [开源大数据平台原型图](https://modao.cc/app/HhitGZQTr954c7Ug8XBvAY#screen=sl11y8j8sne21p9)
+   [开源大数据平台原型图](https://modao.cc/app/HhitGZQTr954c7Ug8XBvAY screen=sl11y8j8sne21p9)
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220740-ee4825fd-8825-4ab6-84a3-e525d1ea646d.png">
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/159821983-7eacde80-a65c-478f-a053-7e26028ff380.png">
 <br/>
 
-## [在线预览](http://112.74.93.144:3000/data-center)
+   [在线预览](http://112.74.93.144:3000/data-center)
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160780581-b9b1ecc7-8675-4085-80c8-d781032b7751.png">
@@ -547,9 +547,9 @@
 <br/>
 
 
-## Integration
+   Integration
 
-## Data Quality
+   Data Quality
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132004-542b699c-2878-4648-a79e-f118f28a0ed2.png">
 <br/>
@@ -566,7 +566,7 @@
 
 <br/>
 
-### Livy访问查看JOB
+    Livy访问查看JOB
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171131636-4cb6d93b-c994-4dfa-bfee-48d2a04c4963.png">  
@@ -574,7 +574,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171133364-8e4a8e84-c9f9-456c-9f33-c90b90cf54e4.png"> 
 <br/>
 
-### Flink1.16 OGG-JSON解析
+    Flink1.16 OGG-JSON解析
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/174279501-3774b028-8252-466d-9ba5-9a02ba677c63.png">
@@ -586,14 +586,14 @@ S3 Hudi成功写入
 
 
 
-## 1、数据平台
+   1、数据平台
 
 > AllData is one of the few open source big data platform projects on Github.
 > It will develop into a successful solution to solve a series of problems in big data e-commerce scenarios.
 > It will also become a general big data base for other developers to use and Contribution, my original intention is to create a product that is useful to society.
 
 
-## 2、商城展示
+   2、商城展示
 <br>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160219586-e2e190fa-21f6-4f87-bbbc-7cdd6ecc625a.png">
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160219649-d6a0b18c-7e54-4f8d-8d95-17777cdbe9d9.png">
@@ -619,7 +619,7 @@ S3 Hudi成功写入
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220106-0341a2f4-b4df-4d2b-9ec1-b0f10affd22d.png">
 <br/>
 
-### 3、数据来源
+    3、数据来源
 ~~~markdown
 	商城前台：
 		mall-shopping-app: 商城App
@@ -634,7 +634,7 @@ S3 Hudi成功写入
 		pcAdminService: 商城后台服务
 ~~~
 
-### 4、数据收集
+    4、数据收集
 ~~~markdown
 log-collect-server:
 服务端日志收集系统
@@ -651,21 +651,21 @@ data-spider:
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220323-db53951d-1956-4c83-8642-b086b8f4d90c.png">
 <br/>
 
-### 5、数据存储
+    5、数据存储
 ~~~markdown
 分布式文件系统：hdfs
 分布式数据库：hbase、mongodb、elasticsearch
 分布式内存存储系统：redis
 ~~~
 
-### 6、数据计算
+    6、数据计算
 ~~~markdown
 compute-mr（离线计算）: Hive、MR
 compute-realtime（流计算）: storm、flink
 multi-dimension-analysis（多维度分析）: kylin, spark
 ~~~
 
-### 7、数据开发
+    7、数据开发
 ~~~markdown
 task-schedular: 任务调度
 task-ops: 任务运维
@@ -676,14 +676,14 @@ task-ops: 任务运维
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220381-c1cc8344-e16c-4d03-8434-b9d1ef43470c.png">
 <br/>
 
-### 8、数据产品
+    8、数据产品
 ~~~markdown
 data-face: 数据可视化
 data-insight: 用户画像分析
 ~~~
 <br/>
 
-### 9、数据应用
+    9、数据应用
 ~~~markdown
 system-recommender: 推荐
 system-ad: 广告
@@ -700,9 +700,9 @@ job-schedule: 任务提交平台
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220425-afc819af-e8f9-4fbb-811d-c0b67cccf7d0.png">
 <br/>
 
-## Installation
+   Installation
 
-### 10、启动配置教程
+    10、启动配置教程
 
 10.1 启动前，打包dubbo-servie项目，进入dubbo目录，
 
@@ -763,7 +763,7 @@ job-schedule: 任务提交平台
 
 
 
-### 11、DevOPS
+    11、DevOPS
 
 11.1 容器化部署system-deploy
 
@@ -808,9 +808,9 @@ job-schedule: 任务提交平台
 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220690-7fc23e65-ad53-4f5f-a0f2-aa55e649f500.png">
 
-## Community
+   Community
 
-## 12、近期进行社区修整，闭关期间，仅保留微信群
+   12、近期进行社区修整，闭关期间，仅保留微信群
 
 
 
