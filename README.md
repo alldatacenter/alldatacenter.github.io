@@ -30,7 +30,7 @@
 </p>
 
 
-  AllData 一站式大数据平台
+AllData 一站式大数据平台
 
 <br/>
 <p>
@@ -48,18 +48,21 @@
   </a>
 </p>
 
-   线上ElAdmin预览地址: http://43.138.157.47:8013/dashboard 账号: poc 密码：123456
-
-   ElAdmin登录页面
+线上ElAdmin体验版
 <br/>
+http://43.138.157.47:8013/dashboard
+<br/>
+登录账号: poc 密码：123456
+
+  <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965509-fc13050b-ebe8-4bd5-8882-69e1af0a8367.png">
 <br/>
-> 首页
+ 首页
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965519-d8fc6e7d-235d-4b52-82f6-358b3863d724.png">
 <br/>
 
-> 数据集成
+ 数据集成
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/206071504-c0e2b3ca-e3c2-4d70-8213-55c7316465ff.png">
@@ -93,7 +96,7 @@
 <br/>
 
 
-> 元数据管理
+ 元数据管理
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203520997-9ac122bb-f61a-4ea9-becf-efa0b72320ad.png">
@@ -102,7 +105,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521639-ed23fceb-96ef-49e2-ac49-931978d7dcc0.png">
 <br/>
 
-> 元数据拾取
+ 元数据拾取
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521695-8f7469db-fc98-44e2-b82c-de729cd5c9e1.png">
 <br/>
@@ -114,7 +117,7 @@
 <br/>
 
 
-> 应用分析
+ 应用分析
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521541-3a3186fd-0827-4c4c-bca0-f2761d6f4d67.png">
 <br/>
@@ -123,49 +126,49 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521584-4099710f-b31f-4815-9c7f-e08e0cdc45bf.png">
 <br/>
 
-> 系统菜单管理
+ 系统菜单管理
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521695-8f7469db-fc98-44e2-b82c-de729cd5c9e1.png">
 <br/>
 
-> 元数据管理
+ 元数据管理
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560882-bc7876d5-6c35-4b79-aa39-aa2803f46e8c.png">
 <br/>
 
-> 数据质量
+ 数据质量
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560895-d03ec73a-f670-4238-860e-26b708c3f2b7.png">
 <br/>
 
 
-> 数据市场
+ 数据市场
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560915-6c17f056-0956-4a83-94a6-00cd21571af9.png">
 <br/>
 
 
-> 数据标准
+ 数据标准
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561067-831d0733-812a-4660-a198-8248eaaf2d8c.png">
 <br/>
 
-> BI报表
+ BI报表
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561081-30169347-8aff-4150-a8c2-f3f3a5a2a20d.png">
 <br/>
 
-> 数据资产
+ 数据资产
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561280-3d656a33-9e3a-440e-ab37-93397fe26b04.png">
 <br/>
 
-> 流程编排
+ 流程编排
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561326-002e0e59-e89d-47b4-8648-ca932194937b.png">
 <br/>
 
-   Flink数据血缘初体验
+Flink数据血缘初体验
 
     1 结果预览
 <br/>
@@ -174,104 +177,104 @@
 
     2 创建FlinkDDL
 
-> 参考Resource/FlinkDDLSQL.sql
+ 参考Resource/FlinkDDLSQL.sql
 
-> CREATE TABLE data_gen (
->
-> amount BIGINT
->
-> ) WITH (
->
-> 'connector' = 'datagen',
->
-> 'rows-per-second' = '1',
->
-> 'number-of-rows' = '3',
->
-> 'fields.amount.kind' = 'random',
->
-> 'fields.amount.min' = '10',
->
-> 'fields.amount.max' = '11');
->
-> CREATE TABLE mysql_sink (
->
-> amount BIGINT,
->
-> PRIMARY KEY (amount) NOT ENFORCED
->
-> ) WITH (
->
-> 'connector' = 'jdbc',
->
-> 'url' = 'jdbc:mysql://localhost:3306/test_db',
->
-> 'table-name' = 'test_table',
->
-> 'username' = 'root',
->
-> 'password' = '123456',
->
-> 'lookup.cache.max-rows' = '5000',
->
-> 'lookup.cache.ttl' = '10min'
->
-> );
->
-> INSERT INTO mysql_sink SELECT amount as amount FROM data_gen;
-
+ CREATE TABLE data_gen (
+ 
+ amount BIGINT
+ 
+ ) WITH (
+ 
+ 'connector' = 'datagen',
+ 
+ 'rows-per-second' = '1',
+ 
+ 'number-of-rows' = '3',
+ 
+ 'fields.amount.kind' = 'random',
+ 
+ 'fields.amount.min' = '10',
+ 
+ 'fields.amount.max' = '11');
+ 
+ CREATE TABLE mysql_sink (
+ 
+ amount BIGINT,
+ 
+ PRIMARY KEY (amount) NOT ENFORCED
+ 
+ ) WITH (
+ 
+ 'connector' = 'jdbc',
+ 
+ 'url' = 'jdbc:mysql://localhost:3306/test_db',
+ 
+ 'table-name' = 'test_table',
+ 
+ 'username' = 'root',
+ 
+ 'password' = '123456',
+ 
+ 'lookup.cache.max-rows' = '5000',
+ 
+ 'lookup.cache.ttl' = '10min'
+ 
+ );
+ 
+ INSERT INTO mysql_sink SELECT amount as amount FROM data_gen;
+ 
     3 执行com.platform.FlinkLineageBuild
+ 
+ 获取结果
+ 
+ 1、Flink血缘构建结果-表:
+ 
+ [LineageTable{id='4', name='data_gen', columns=[LineageColumn{name='amount', title='amount'}]},
+ 
+ LineageTable{id='6', name='mysql_sink', columns=[LineageColumn{name='amount', title='amount'}]}]
+ 
+ 表ID: 4
+ 
+ 表Namedata_gen
+ 
+ 表ID: 4
+ 
+ 表Namedata_gen
+ 
+ 表-列LineageColumn{name='amount', title='amount'}
+ 
+ 表ID: 6
+ 
+ 表Namemysql_sink
+ 
+ 表ID: 6
+ 
+ 表Namemysql_sink
+ 
+ 表-列LineageColumn{name='amount', title='amount'}
+ 
+ 2、Flink血缘构建结果-边:
+ 
+ [LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}]
+ 
+ 表-边: LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}
 
-> 获取结果
-
-> 1、Flink血缘构建结果-表:
->
-> [LineageTable{id='4', name='data_gen', columns=[LineageColumn{name='amount', title='amount'}]},
->
-> LineageTable{id='6', name='mysql_sink', columns=[LineageColumn{name='amount', title='amount'}]}]
->
-> 表ID: 4
->
-> 表Namedata_gen
->
-> 表ID: 4
->
-> 表Namedata_gen
->
-> 表-列LineageColumn{name='amount', title='amount'}
->
-> 表ID: 6
->
-> 表Namemysql_sink
->
-> 表ID: 6
->
-> 表Namemysql_sink
->
-> 表-列LineageColumn{name='amount', title='amount'}
->
-> 2、Flink血缘构建结果-边:
->
-> [LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}]
->
-> 表-边: LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}
-
-   AllData Doris
+AllData Doris
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/200178943-7a8edb50-b4d6-4095-9e39-2b3303925701.png">
 <br/>
 
-   AllData全新定制一站式场景化大数据中台
+AllData全新定制一站式场景化大数据中台
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/200179453-bfe6b877-5e59-4239-8217-154a0953c97d.png">
 <br/>
 
-   AllData Ambari全新自定义Apache组件栈大数据中台
-<br/> 
+AllData Ambari全新自定义Apache组件栈大数据中台
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/202367748-4cc39063-aa62-414e-9a10-9543403d5d7c.png">
 <br/>
 
-   大数据组件管理DOCKER FOR DATA PLATFORM
+大数据组件管理DOCKER FOR DATA PLATFORM
 
     1、配置主机服务HOST
 
@@ -331,85 +334,85 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203998796-732df150-c697-41b6-a5e7-dc9c65cada4f.png">
 <br/>
 
-   使用Docker/K8S云原生方案-控制各种组件起停
+使用Docker/K8S云原生方案-控制各种组件起停
 
->
-> 1、BUSINESS FOR ALL DATA PLATFORM 商业项目
->
-> 2、BUSINESS FOR ALL DATA PLATFORM 计算引擎
->
-> 3、DEVOPS FOR ALL DATA PLATFORM 运维引擎
->
-> 4、DATA GOVERN FOR ALL DATA PLATFORM 数据治理引擎
->
-> 5、DATA Integrate FOR ALL DATA PLATFORM 数据集成引擎
->
-> 6、AI FOR ALL DATA PLATFORM 人工智能引擎
->
-> 7、DATA ODS FOR ALL DATA PLATFORM 数据采集引擎
->
-> 8、OLAP FOR ALL DATA PLATFORM OLAP查询引擎
->
-> 9、OPTIMIZE FOR ALL DATA PLATFORM 性能优化引擎
->
-> 10、DATABASES FOR ALL DATA PLATFORM 分布式存储引擎
->
+ 
+  1、BUSINESS FOR ALL DATA PLATFORM 商业项目
+ 
+  2、BUSINESS FOR ALL DATA PLATFORM 计算引擎
+ 
+  3、DEVOPS FOR ALL DATA PLATFORM 运维引擎
+ 
+  4、DATA GOVERN FOR ALL DATA PLATFORM 数据治理引擎
+ 
+  5、DATA Integrate FOR ALL DATA PLATFORM 数据集成引擎
+ 
+  6、AI FOR ALL DATA PLATFORM 人工智能引擎
+ 
+  7、DATA ODS FOR ALL DATA PLATFORM 数据采集引擎
+ 
+  8、OLAP FOR ALL DATA PLATFORM OLAP查询引擎
+ 
+  9、OPTIMIZE FOR ALL DATA PLATFORM 性能优化引擎
+ 
+  10、DATABASES FOR ALL DATA PLATFORM 分布式存储引擎
+ 
 
-   Flink Table Store && Lake Storage POC
+Flink Table Store && Lake Storage POC
 
     2.1 SQL~Flink table store poc
->
-> set execution.checkpointing.interval=15sec;
->
-> CREATE CATALOG alldata_catalog WITH (
->
->   'type'='table-store',
->
->   'warehouse'='file:/tmp/table_store'
->
-> );
->
-> USE CATALOG alldata_catalog;
->
-> CREATE TABLE word_count (
->
->     word STRING PRIMARY KEY NOT ENFORCED,
->     
->     cnt BIGINT
->
-> );
->
-> CREATE TEMPORARY TABLE word_table (
->
->     word STRING
->
-> ) WITH (
->
->     'connector' = 'datagen',
->     
->     'fields.word.length' = '1'
->
-> );
->
-> INSERT INTO word_count SELECT word, COUNT(*) FROM word_table GROUP BY word;
->
-> -- POC Test OLAP QUERY
->
-> SET sql-client.execution.result-mode = 'tableau';
->
-> RESET execution.checkpointing.interval;
->
-> SET execution.runtime-mode = 'batch';
->
-> SELECT * FROM word_count;
->
-> -- POC Test Stream QUERY
->
-> -- SET execution.runtime-mode = 'streaming';
->
-> -- SELECT `interval`, COUNT(*) AS interval_cnt FROM
->
-> --   (SELECT cnt / 10000 AS `interval` FROM word_count) GROUP BY `interval`;
+ 
+  set execution.checkpointing.interval=15sec;
+ 
+  CREATE CATALOG alldata_catalog WITH (
+ 
+    'type'='table-store',
+ 
+    'warehouse'='file:/tmp/table_store'
+ 
+  );
+ 
+  USE CATALOG alldata_catalog;
+ 
+  CREATE TABLE word_count (
+ 
+      word STRING PRIMARY KEY NOT ENFORCED,
+      
+      cnt BIGINT
+ 
+  );
+ 
+  CREATE TEMPORARY TABLE word_table (
+ 
+      word STRING
+ 
+ ) WITH (
+
+     'connector' = 'datagen',
+     
+     'fields.word.length' = '1'
+
+ );
+
+ INSERT INTO word_count SELECT word, COUNT(*) FROM word_table GROUP BY word;
+
+ -- POC Test OLAP QUERY
+
+ SET sql-client.execution.result-mode = 'tableau';
+
+ RESET execution.checkpointing.interval;
+
+ SET execution.runtime-mode = 'batch';
+
+ SELECT * FROM word_count;
+
+ -- POC Test Stream QUERY
+
+ -- SET execution.runtime-mode = 'streaming';
+
+ -- SELECT `interval`, COUNT(*) AS interval_cnt FROM
+
+ --   (SELECT cnt / 10000 AS `interval` FROM word_count) GROUP BY `interval`;
 
     2.2 Flink Runtime Web
 <br/>
@@ -417,49 +420,49 @@
 <br/>
 
     2.3 Flink Batch
->
+
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073715-e69d8378-1b37-4fea-851f-9f3e6a9d62eb.png">
 <br/>
 
     2.4 Flink Olap Read
->
+
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073740-e088e842-3010-42af-bfc2-0808d5e1940f.png">
 <br/> 
 
     2.5 Flink Stream Read
->
+
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073760-906f0b1c-498b-4713-931b-25a90f53e985.png">
 <br/> 
 
-   Dlink二开新增Flink1.16.0支持
-    1、Dlink配置Flink Table Store相关依赖
+Dlink二开新增Flink1.16.0支持
+1、Dlink配置Flink Table Store相关依赖
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467342-fd24f652-2fb5-4e4e-9b6e-23a113817b6b.png">
-<br/> 
-    2、Dlink启动并运行成功
+<br/>
+2、Dlink启动并运行成功
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467422-a2c39226-31c6-4998-a926-71068b36de4d.png">
-<br/> 
-    3、OLAP查询
+<br/>
+3、OLAP查询
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467379-b498da92-218f-4f29-a977-dd17fa374ea0.png">
-<br/> 
+<br/>
 
     4、Flink1.16.0 Dlink流式读
-> 4.1 Stream Read 1
+4.1 Stream Read 1
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467499-e1541c84-f8c8-40ff-aa33-cdd35cae2932.png">
 <br/>
-> 4.2 Stream Read 2
+4.2 Stream Read 2
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467519-83fd40d5-823d-45b0-8cdd-09e0b9b09cb2.png">
 <br/>
 
 
-   Architecture
+Architecture
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171598215-0914f665-9950-476c-97ff-e7e07aa10eaf.png">
 <br/>
@@ -490,54 +493,54 @@
 | [**AllData**](https://github.com/alldatacenter/alldata)                                    | AllData社区项目通过二开大数据生态组件，以及大数据采集、大数据存储、大数据计算、大数据开发来建设一站式大数据平台    | Github一站式开源大数据平台AllData社区项目 |
 
 
-   AllData社区商业计划图
+AllData社区商业计划图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898972-d78bcbb6-eb30-420d-b5e1-7168aa340555.png">
 <br/>
 
-   AllData社区项目业务流程图
+AllData社区项目业务流程图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899006-aba25703-f8fa-42b6-b59f-2573ee2b27fc.png">
 <br/>
 
-   AllData社区项目树状图
+AllData社区项目树状图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898939-bfba6cbc-c7b0-40c4-becd-27152d5daa90.png">
 <br/>
 
-   全站式AllData产品路线图
+全站式AllData产品路线图
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/179927878-ff9c487e-0d30-49d5-bc88-6482646d90a8.png">
 <br/>
 
 
-   AllData社区项目时间旅行
+AllData社区项目时间旅行
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899033-948583a4-841b-4233-ad61-bbc45c936ca1.png">
 <br/>
 
-   实时推荐系统业务流程图
+实时推荐系统业务流程图
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/191244864-3cffc8e3-e41e-4865-8b2b-376742f10a8e.png">
 <br/>
 
-   AllData总部前后端解决方案
-    包括AllData前后端解决方案、多租户运维平台前后端
-    基于`eladmin` + `tenant` 建设AllData前后端解决方案
+AllData总部前后端解决方案
+包括AllData前后端解决方案、多租户运维平台前后端
+基于`eladmin` + `tenant` 建设AllData前后端解决方案
 
-> 1、AllData前端解决方案 `oneHub/eladmin-web`
->
-> 2、AllData后端解决方案 `oneHub/eladmin`
->
-> 3、多租户运维平台前端 `oneHub/tenant`
->
-> 4、多租户运维平台前端 `oneHub/tenantBack`
+1、AllData前端解决方案 `oneHub/eladmin-web`
+
+2、AllData后端解决方案 `oneHub/eladmin`
+
+3、多租户运维平台前端 `oneHub/tenant`
+
+4、多租户运维平台前端 `oneHub/tenantBack`
 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/196594418-1ba618cb-da53-487a-951d-0715e3fc685e.jpg">
 
-   [开源大数据平台原型图](https://modao.cc/app/HhitGZQTr954c7Ug8XBvAY screen=sl11y8j8sne21p9)
+[开源大数据平台原型图](https://modao.cc/app/HhitGZQTr954c7Ug8XBvAY screen=sl11y8j8sne21p9)
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220740-ee4825fd-8825-4ab6-84a3-e525d1ea646d.png">
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/159821983-7eacde80-a65c-478f-a053-7e26028ff380.png">
 <br/>
 
-   [在线预览](http://112.74.93.144:3000/data-center)
+[在线预览](http://112.74.93.144:3000/data-center)
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160780581-b9b1ecc7-8675-4085-80c8-d781032b7751.png">
@@ -547,9 +550,9 @@
 <br/>
 
 
-   Integration
+Integration
 
-   Data Quality
+Data Quality
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132004-542b699c-2878-4648-a79e-f118f28a0ed2.png">
 <br/>
@@ -561,7 +564,7 @@
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132633-193bbba4-58d6-4b38-8e9e-4674cdfa7cdd.png">
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132684-37ebcec6-05dd-45d6-83cd-d4f18416b755.png"> 
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132684-37ebcec6-05dd-45d6-83cd-d4f18416b755.png">
 <br/>
 
 <br/>
@@ -586,14 +589,14 @@ S3 Hudi成功写入
 
 
 
-   1、数据平台
+1、数据平台
 
-> AllData is one of the few open source big data platform projects on Github.
-> It will develop into a successful solution to solve a series of problems in big data e-commerce scenarios.
-> It will also become a general big data base for other developers to use and Contribution, my original intention is to create a product that is useful to society.
+ AllData is one of the few open source big data platform projects on Github.
+ It will develop into a successful solution to solve a series of problems in big data e-commerce scenarios.
+ It will also become a general big data base for other developers to use and Contribution, my original intention is to create a product that is useful to society.
 
 
-   2、商城展示
+2、商城展示
 <br>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160219586-e2e190fa-21f6-4f87-bbbc-7cdd6ecc625a.png">
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160219649-d6a0b18c-7e54-4f8d-8d95-17777cdbe9d9.png">
@@ -700,7 +703,7 @@ job-schedule: 任务提交平台
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220425-afc819af-e8f9-4fbb-811d-c0b67cccf7d0.png">
 <br/>
 
-   Installation
+Installation
 
     10、启动配置教程
 
@@ -808,14 +811,8 @@ job-schedule: 任务提交平台
 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/160220690-7fc23e65-ad53-4f5f-a0f2-aa55e649f500.png">
 
-   Community
+Community
 
-   12、近期进行社区修整，闭关期间，仅保留微信群
-
-
+12、近期进行社区修整，闭关期间，仅保留微信群
 
 </div>
-
-
-
-
