@@ -28,58 +28,29 @@
     <img src="https://img.shields.io/github/license/authorwlh/alldata.svg">
   </a>
 </p>
-</div>
 
 
 # AllData 一站式大数据平台
 
-
-## 社区建设 && 社区捐赠
-
-> 目前正在建设团队，将大力投入发展AllData项目，欢迎大家踊跃参与建设与讨论！
->
-> 由于近期购买服务器需要，希望能得到社区的成员捐赠支持
->
-> 捐赠方式：扫码支付作者50-200元，然后添加作者个人微信AllDataDC，邀请您进入内部研发微信群以及社区讨论微信群
->
-> 1、您会获得收益，作者会分享从0到1建设Github开源一站式大数据平台AllData社区项目经验心得
->
-> 2、您会获得内部最新总设文档，支付时请备注联系方式，支付后请联系作者微信AllDataDC
->
-> 3、您将有机会获得商业版定制的机会，加作者微信好友，可以提供第一手安装部署资料
->
-> 4、您将有机会成为AllData极客开发团队成员，获得成就感与价值输出愉悦感
-
-
-### [AllData社区服务器捐赠50-200元](https://user-images.githubusercontent.com/20246692/190121827-62c6bd5c-5b6f-449c-8a5f-f90c4fea9c02.jpg)
-<br/>
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/20246692/190121827-62c6bd5c-5b6f-449c-8a5f-f90c4fea9c02.jpg">
-
-### [AllData社区负责人进微信群](https://user-images.githubusercontent.com/20246692/188576131-e14fc227-c352-4eb9-8803-bdd5fbcedc0f.jpg)
-<br/>
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/20246692/188576131-e14fc227-c352-4eb9-8803-bdd5fbcedc0f.jpg">
-<br/>
-
-
 <br/>
 <p>
-  <a href="https://github.com/AllDataTeam/alldata/commits/master"  target="_blank">
+  <a href="https://github.com/alldatacenter/alldata/commits/master"  target="_blank">
     <img width=200 height="40" src="https://img.shields.io/github/last-commit/authorwlh/alldata.svg">
   </a>
-  <a href="https://github.com/AllDataTeam/alldata/issues?q=is%3Aissue+is%3Aopen+label%3Abug" target="_blank">
+  <a href="https://github.com/alldatacenter/alldata/issues?q=is%3Aissue+is%3Aopen+label%3Abug" target="_blank">
     <img width=200 height="40" src="https://img.shields.io/github/issues/authorwlh/alldata/bug.svg?label=bugs&color=red">
   </a>
-  <a href="https://github.com/AllDataTeam/alldata/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement" target="_blank">
+  <a href="https://github.com/alldatacenter/alldata/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement" target="_blank">
     <img width=200 height="40" src="https://img.shields.io/github/issues/authorwlh/alldata/enhancement.svg?label=enhancements&color=cyan">
   </a>
-  <a href="https://github.com/AllDataTeam/alldata/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/alldatacenter/alldata/blob/master/LICENSE" target="_blank">
     <img width=200 height="40" src="https://img.shields.io/github/license/authorwlh/alldata.svg">
   </a>
 </p>
 
-## [中文](https://github.com/AllDataTeam/alldata/blob/master/README_ZH.md) | English
-## [原型体验预览版](https://orgnext.modao.cc/app/HhitGZQTr954c7Ug8XBvAY) | [Documentation](https://github.com/AllDataTeam/alldata/blob/master/README.md) | [Installation](#installation) | [Architecture](#architecture) | [Integration](#integration) | [Community](#community)
-## [AllData社区项目官方文档](https://alldatateam.github.io/) | [AllData数据中台体验版地址](https://alldatateam.github.io/) | [AllData数据中台前端](https://github.com/AllDataTeam/dataHub)
+## [中文](https://github.com/alldatacenter/alldata/blob/master/README_ZH.md) | English
+## [原型体验预览版](https://orgnext.modao.cc/app/HhitGZQTr954c7Ug8XBvAY) | [Documentation](https://github.com/alldatacenter/alldata/blob/master/README.md) | [Installation](#installation) | [Architecture](#architecture) | [Integration](#integration) | [Community](#community)
+## [AllData社区项目官方文档](https://alldatateam.github.io/) | [AllData数据中台体验版地址](https://alldatateam.github.io/) | [AllData数据中台前端](https://github.com/alldatacenter/dataHub)
 
 ## Stargazers over time
 
@@ -95,7 +66,7 @@
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965509-fc13050b-ebe8-4bd5-8882-69e1af0a8367.png">
 <br/>
-> 首页 
+> 首页
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965519-d8fc6e7d-235d-4b52-82f6-358b3863d724.png">
 <br/>
@@ -134,7 +105,7 @@
 <br/>
 
 
-> 元数据管理 
+> 元数据管理
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203520997-9ac122bb-f61a-4ea9-becf-efa0b72320ad.png">
@@ -159,7 +130,7 @@
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521541-3a3186fd-0827-4c4c-bca0-f2761d6f4d67.png">
 <br/>
- 
+
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521584-4099710f-b31f-4815-9c7f-e08e0cdc45bf.png">
 <br/>
@@ -181,7 +152,7 @@
 
 
 > 数据市场
-<br/> 
+<br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560915-6c17f056-0956-4a83-94a6-00cd21571af9.png">
 <br/>
 
@@ -218,83 +189,83 @@
 > 参考Resource/FlinkDDLSQL.sql
 
 > CREATE TABLE data_gen (
-> 
+>
 > amount BIGINT
-> 
+>
 > ) WITH (
-> 
+>
 > 'connector' = 'datagen',
-> 
+>
 > 'rows-per-second' = '1',
-> 
+>
 > 'number-of-rows' = '3',
-> 
+>
 > 'fields.amount.kind' = 'random',
-> 
+>
 > 'fields.amount.min' = '10',
-> 
+>
 > 'fields.amount.max' = '11');
-> 
+>
 > CREATE TABLE mysql_sink (
-> 
+>
 > amount BIGINT,
-> 
+>
 > PRIMARY KEY (amount) NOT ENFORCED
-> 
+>
 > ) WITH (
-> 
+>
 > 'connector' = 'jdbc',
-> 
+>
 > 'url' = 'jdbc:mysql://localhost:3306/test_db',
-> 
+>
 > 'table-name' = 'test_table',
-> 
+>
 > 'username' = 'root',
-> 
+>
 > 'password' = '123456',
-> 
+>
 > 'lookup.cache.max-rows' = '5000',
-> 
+>
 > 'lookup.cache.ttl' = '10min'
-> 
+>
 > );
-> 
+>
 > INSERT INTO mysql_sink SELECT amount as amount FROM data_gen;
 
-### 3 执行com.platform.FlinkLineageBuild 
+### 3 执行com.platform.FlinkLineageBuild
 
 > 获取结果
 
 > 1、Flink血缘构建结果-表:
-> 
-> [LineageTable{id='4', name='data_gen', columns=[LineageColumn{name='amount', title='amount'}]}, 
-> 
+>
+> [LineageTable{id='4', name='data_gen', columns=[LineageColumn{name='amount', title='amount'}]},
+>
 > LineageTable{id='6', name='mysql_sink', columns=[LineageColumn{name='amount', title='amount'}]}]
-> 
+>
 > 表ID: 4
-> 
+>
 > 表Namedata_gen
-> 
+>
 > 表ID: 4
-> 
+>
 > 表Namedata_gen
-> 
+>
 > 表-列LineageColumn{name='amount', title='amount'}
-> 
+>
 > 表ID: 6
-> 
+>
 > 表Namemysql_sink
-> 
+>
 > 表ID: 6
-> 
+>
 > 表Namemysql_sink
-> 
+>
 > 表-列LineageColumn{name='amount', title='amount'}
-> 
+>
 > 2、Flink血缘构建结果-边:
-> 
+>
 > [LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}]
-> 
+>
 > 表-边: LineageRelation{id='1', srcTableId='4', tgtTableId='6', srcTableColName='amount', tgtTableColName='amount'}
 
 ## AllData Doris
@@ -394,62 +365,62 @@
 > 9、OPTIMIZE FOR ALL DATA PLATFORM 性能优化引擎
 >
 > 10、DATABASES FOR ALL DATA PLATFORM 分布式存储引擎
-> 
+>
 
 ## Flink Table Store && Lake Storage POC
 
 ### 2.1 SQL~Flink table store poc
-> 
+>
 > set execution.checkpointing.interval=15sec;
-> 
+>
 > CREATE CATALOG alldata_catalog WITH (
-> 
+>
 >   'type'='table-store',
->   
+>
 >   'warehouse'='file:/tmp/table_store'
->   
+>
 > );
-> 
+>
 > USE CATALOG alldata_catalog;
-> 
+>
 > CREATE TABLE word_count (
-> 
+>
 >     word STRING PRIMARY KEY NOT ENFORCED,
 >     
 >     cnt BIGINT
->     
+>
 > );
-> 
+>
 > CREATE TEMPORARY TABLE word_table (
-> 
+>
 >     word STRING
->     
+>
 > ) WITH (
-> 
+>
 >     'connector' = 'datagen',
 >     
 >     'fields.word.length' = '1'
->     
+>
 > );
-> 
+>
 > INSERT INTO word_count SELECT word, COUNT(*) FROM word_table GROUP BY word;
-> 
+>
 > -- POC Test OLAP QUERY
-> 
+>
 > SET sql-client.execution.result-mode = 'tableau';
-> 
+>
 > RESET execution.checkpointing.interval;
-> 
+>
 > SET execution.runtime-mode = 'batch';
-> 
+>
 > SELECT * FROM word_count;
-> 
+>
 > -- POC Test Stream QUERY
-> 
+>
 > -- SET execution.runtime-mode = 'streaming';
-> 
+>
 > -- SELECT `interval`, COUNT(*) AS interval_cnt FROM
-> 
+>
 > --   (SELECT cnt / 10000 AS `interval` FROM word_count) GROUP BY `interval`;
 
 ### 2.2 Flink Runtime Web
@@ -458,23 +429,23 @@
 <br/>
 
 ### 2.3 Flink Batch
-> 
+>
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073715-e69d8378-1b37-4fea-851f-9f3e6a9d62eb.png">
 <br/>
 
 ### 2.4 Flink Olap Read
-> 
+>
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073740-e088e842-3010-42af-bfc2-0808d5e1940f.png">
 <br/> 
 
 ### 2.5 Flink Stream Read
-> 
+>
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203073760-906f0b1c-498b-4713-931b-25a90f53e985.png">
 <br/> 
- 
+
 ## Dlink二开新增Flink1.16.0支持
 ### 1、Dlink配置Flink Table Store相关依赖
 <br/>
@@ -493,7 +464,7 @@
 > 4.1 Stream Read 1
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467499-e1541c84-f8c8-40ff-aa33-cdd35cae2932.png">
-<br/> 
+<br/>
 > 4.2 Stream Read 2
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203467519-83fd40d5-823d-45b0-8cdd-09e0b9b09cb2.png">
@@ -507,25 +478,28 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171598333-d14ff53f-3af3-481c-9f60-4f891a535b5c.png">
 <br/>
 
-| Component                                                      | Description                                                   | Important Composition       |
-|----------------------------------------------------------------|---------------------------------------------------------------|-----------------------------|
-| [**assembly**](https://github.com/AllDataTeam/alldata/tree/master/assembly) | WHOLE PACKAGE BUILD FOR ALL DATA PLATFORM assembly engine     | 整包构建引擎                      |
-| [**commerce**](https://github.com/AllDataTeam/alldata/tree/master/commerce) | COMMERCE FOR ALL DATA PLATFORM commerce engine                | 商业业务引擎                      |
-| [**dataAI**](https://github.com/AllDataTeam/alldata/tree/master/dataAI) | AI FOR ALL DATA PLATFORM artificial intelligence engine       | 人工智能引擎                      |
-| [**dataDevops**](https://github.com/AllDataTeam/alldata/tree/master/dataDevops) | DEVOPS FOR ALL DATA PLATFORM O&M Engine                       | 运维引擎                        |
-| [**dataGovern**](https://github.com/AllDataTeam/alldata/tree/master/dataGovern) | DATA GOVERN FOR ALL DATA PLATFORM Data Governance Engine      | 数据治理引擎                      |
-| [**dataOds**](https://github.com/AllDataTeam/alldata/tree/master/dataOds) | DATA ODS FOR ALL DATA PLATFORM data acquisition engine        | 数据源管理平台                     |
-| [**dataOlap**](https://github.com/AllDataTeam/alldata/tree/master/dataOlap) | OLAP FOR ALL DATA PLATFORM OLAP query engine                  | 混合OLAP查询引擎                  |
-| [**dataStudio**](https://github.com/AllDataTeam/alldata/tree/master/dataStudio) | DEVELOP IDE FOR ALL DATA PLATFORM DEVELOP IDE ENGINE          | 批流一体开发IDE                   |
-| [**dataSync**](https://github.com/AllDataTeam/alldata/tree/master/dataSync) | DATA Integrate FOR ALL DATA PLATFORM Data Integration Engine  | 数据集成引擎                      |
-| [**dataTasks**](https://github.com/AllDataTeam/alldata/tree/master/dataTasks) | DATA Task FOR ALL DATA PLATFORM Data Task Engine              | 数据业务管理平台                    |
-| [**docs**](https://github.com/AllDataTeam/alldata/tree/master/docs) | Document                                                      | 文档                          | 
-| [**mlApps**](https://github.com/AllDataTeam/alldata/tree/master/mlApps) | MLAPPS FOR ALL DATA PLATFORM MLAPPS Engine                    | 算法市场                        | 
-| [**oneData**](https://github.com/AllDataTeam/alldata/tree/master/oneData) | MICROSERVICE FOR ALL DATA PLATFORM distributed storage engine | 微服务引擎                       |
-| [**oneHub**](https://github.com/AllDataTeam/alldata/tree/master/oneHub) | ONE HUB FOR ALL DATA PLATFORM ONE HUB Engine                  | AllData总部前后端解决方案                      |
-| [**oneLake**](https://github.com/AllDataTeam/alldata/tree/master/oneLake) | ONE LAKE FOR ALL DATA PLATFORM ONE LAKE engine                | 数据湖引擎                       |
-| [**oneShop**](https://github.com/AllDataTeam/alldata/tree/master/oneShop) | BUSINESS FOR ALL DATA PLATFORM                                | 商业项目                        |
-| [**AllData**](https://github.com/AllDataTeam/alldata)       | AllData社区项目通过二开大数据生态组件，以及大数据采集、大数据存储、大数据计算、大数据开发来建设一站式大数据平台                                | Github一站式开源大数据平台AllData社区项目 |
+| Component                                                                                | Description                                                    | Important Composition       |
+|------------------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------|
+| [**aiStudio**](https://github.com/alldatacenter/alldata/tree/master/aiStudio)              | AI STUDIO FOR ALL DATA PLATFORM artificial intelligence engine | 人工智能引擎                      |
+| [**aiStudioTasks**](https://github.com/alldatacenter/alldata/tree/master/aiStudioTasks)    | AI STUDIO TASKS FOR ALL DATA PLATFORM MLAPPS Engine            | 人工智能模型任务                    | 
+| [**assembly**](https://github.com/alldatacenter/alldata/tree/master/assembly)              | WHOLE PACKAGE BUILD FOR ALL DATA PLATFORM assembly engine      | 整包构建引擎                      |
+| [**buried**](https://github.com/alldatacenter/alldata/tree/master/buried)                  | BURIED FOR ALL DATA PLATFORM data acquisition engine           | 埋点解决方案                      |
+| [**buriedShop**](https://github.com/alldatacenter/alldata/tree/master/buriedShop)          | BURIED SHOP FOR ALL DATA PLATFORM commerce engine              | 多端商城                        |
+| [**buriedTrade**](https://github.com/alldatacenter/alldata/tree/master/buriedTrade)        | BURIED TRADE FOR ALL DATA PLATFORM commerce engine             | 商业系统                        |
+| [**crawlerData**](https://github.com/alldatacenter/alldata/tree/master/crawlerData)        | CRAWLER DATA TRADE FOR ALL DATA PLATFORM commerce engine       | 爬虫任务                        |
+| [**crawlerPlatform**](https://github.com/alldatacenter/alldata/tree/master/crawlerPlatform) | CRAWLER PLATFORM FOR ALL DATA PLATFORM commerce engine         | 爬虫引擎系统                      |
+| [**dataOlap**](https://github.com/alldatacenter/alldata/tree/master/dataOlap)              | OLAP FOR ALL DATA PLATFORM OLAP query engine                   | 混合OLAP查询引擎                  |
+| [**dataSync**](https://github.com/alldatacenter/alldata/tree/master/dataSync)              | DATA Integrate FOR ALL DATA PLATFORM Data Integration Engine   | 数据集成引擎                      |
+| [**dataSRE**](https://github.com/alldatacenter/alldata/tree/master/dataSRE)                | DATA SRE FOR ALL DATA PLATFORM OLAP query engine               | 智能大数据运维引擎                   |
+| [**deploy**](https://github.com/alldatacenter/alldata/tree/master/deploy)                  | DEPLOY FOR ALL DATA PLATFORM OLAP query engine                 | 安装部署                        |
+| [**documents**](https://github.com/alldatacenter/alldata/tree/master/documents)            | DOCUMENT FOR ALL DATA PLATFORM OLAP query engine               | 官方文档                        |
+| [**govern**](https://github.com/alldatacenter/alldata/tree/master/govern)                  | DATA GOVERN FOR ALL DATA PLATFORM Data Governance Engine       | 数据治理引擎                      |
+| [**oneHub**](https://github.com/alldatacenter/alldata/tree/master/oneHub)                  | ONE HUB FOR ALL DATA PLATFORM ONE HUB Engine                   | AllData总部前后端解决方案            |
+| [**oneLake**](https://github.com/alldatacenter/alldata/tree/master/oneLake)                | ONE LAKE FOR ALL DATA PLATFORM ONE LAKE engine                 | 数据湖引擎                       |
+| [**studioSystem**](https://github.com/alldatacenter/alldata/tree/master/studioSystem)      | STUDIO SYSTEM FOR ALL DATA PLATFORM DEVELOP IDE ENGINE         | 大数据流批计算平台                   |
+| [**studioTasks**](https://github.com/alldatacenter/alldata/tree/master/studioTasks)        | STUDIO TASKS FOR ALL DATA PLATFORM Data Task Engine            | 大数据流批计算任务                   |
+| [**docs**](https://github.com/alldatacenter/alldata/tree/master/docs)                      | Document                                                       | 文档                          | 
+| [**AllData**](https://github.com/alldatacenter/alldata)                                    | AllData社区项目通过二开大数据生态组件，以及大数据采集、大数据存储、大数据计算、大数据开发来建设一站式大数据平台    | Github一站式开源大数据平台AllData社区项目 |
 
 
 ## AllData社区商业计划图
@@ -848,19 +822,11 @@ job-schedule: 任务提交平台
 
 ## Community
 
-## 12、社区共建
-
-### [AllData社区QQ群](https://user-images.githubusercontent.com/20246692/188576165-de2d3649-9cdd-479a-a28c-3f783497f4f7.jpg)
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/20246692/188576165-de2d3649-9cdd-479a-a28c-3f783497f4f7.jpg">
-<br/> 
-
-
-### [AllData社区钉钉群](https://user-images.githubusercontent.com/20246692/188576143-f17e4fe1-3155-40a5-a4a6-1aa5cf9590e2.jpg)
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/20246692/188576143-f17e4fe1-3155-40a5-a4a6-1aa5cf9590e2.jpg">
-<br/>
+## 12、近期进行社区修整，闭关期间，仅保留微信群
 
 
 
+</div>
 
 
 
