@@ -1,35 +1,3 @@
-
-<div align="center">
-  <h3> 💥🔥 Hey there! I'm AllDataDC.</h3>
-<br/>
-  Developing BigData Platform
-<br/>
-  Exploring new technologies
-<br/>
-  Studying Computer Science
-<br/>
-  Enthusiast in BigData and AI
-<br/>
-  Full Stack developer and BigData developer
-  <br/>
-  Create a product that is useful to society
-  <br/>
-  <p>
-  <a href="https://github.com/authorwlh/alldata/commits/master" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/authorwlh/alldata.svg">
-  </a>
-  <a href="https://github.com/authorwlh/alldata/issues?q=is%3Aissue+is%3Aopen+label%3Abug" target="_blank">
-    <img src="https://img.shields.io/github/issues/authorwlh/alldata/bug.svg?label=bugs&color=red">
-  </a>
-  <a href="https://github.com/authorwlh/alldata/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement" target="_blank">
-    <img src="https://img.shields.io/github/issues/authorwlh/alldata/enhancement.svg?label=enhancements&color=cyan">
-  </a>
-  <a href="https://github.com/authorwlh/alldata/blob/master/LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/authorwlh/alldata.svg">
-  </a>
-</p>
-
-
 # AllData 一站式大数据平台
 
 ## [原型](https://orgnext.modao.cc/app/HhitGZQTr954c7Ug8XBvAY) ｜ [官方文档](https://alldatacenter.github.io/) ｜ [中文](https://github.com/alldatacenter/alldata/blob/master/README_ZH.md) ｜ [Document](https://github.com/alldatacenter/alldata/blob/master/README.md) ｜ [Community](#community)
